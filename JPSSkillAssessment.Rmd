@@ -1,0 +1,205 @@
+---
+title: "JPS"
+author: "Aung Myo Htut"
+date: "2024-04-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(ggpubr)
+library(ggfortify)
+```
+
+#Load the data
+```{r}
+enc_data <- read_csv("Encounters_data.csv", show_col_types = FALSE)
+head(enc_data, n=10)
+```
+
+#1.	Using the Encounter_Dates data, create a new variable called AGE to specify the patient’s age at each encounter
+```{r}
+#mdy data format
+enc_data$BIRTH_DATE <- mdy(enc_data$BIRTH_DATE)
+enc_data$ENC_DATE <- mdy(enc_data$ENC_DATE)
+
+#create age at each encounter date
+enc_data$AGE <- round(as.numeric(difftime(enc_data$ENC_DATE, enc_data$BIRTH_DATE, units = "days"))/365.25)
+head(enc_data)
+summary(enc_data$AGE)
+```
+
+#2.	Using the Encounter_Dates data, create a new variable called RACE_ETH. The RACE_ETH variable should be coded as:
+<!-- ‘Non-Hispanic Black’ if RACE is Black and ETHNICITY is Non-Hispanic; -->
+<!-- ‘Non-Hispanic White’ if RACE is White and ETHNICITY is Non-Hispanic; -->
+<!-- ‘Non-Hispanic Other’ if RACE is Other and ETHNICITY is Non-Hispanic; -->
+<!-- ‘Hispanic’ if ETHNICITY is Hispanic. -->
+
+```{r}
+#race/ethnicity
+table(enc_data$RACE)
+table(enc_data$ETHNICITY)
+
+encounter <- enc_data %>%
+  mutate(RACE_ETH = case_when(
+    RACE=="Black" & ETHNICITY == "Non-Hispanic"~0,
+    RACE=="White" & ETHNICITY == "Non-Hispanic"~1,
+    RACE=="Other" & ETHNICITY == "Non-Hispanic"~2,
+    ETHNICITY == "Hispanic" ~ 3))
+
+encounter$RACE_ETH <- factor(encounter$RACE_ETH,levels = 0:3, 
+                             labels = c("Non-Hispanic Black", "Non-Hispanic White",
+                                        "Non-Hispanic Other", "Hispanic"))
+table(encounter$RACE_ETH)
+```
+
+#3.	Using the Encounter_Dates data, create a new variable called Depression, which documents if depression is present at the time of encounter.
+
+```{r}
+encounter$Depression <- if_else(grepl("depression",encounter$COMORBID, ignore.case = TRUE),"Yes","No")
+table(encounter$Depression)
+```
+
+#4.	Choose one of the following (a or b) below: 
+<!-- a.	There are 7 unique patients in the Encounter_Dates data. Calculate (via coding) the count of encounters by patient -->
+<!-- i.	Copy and paste code -->
+<!-- ii.	Paste/submit your table of counts -->
+```{r}
+#count of encounters by patient
+encounter_counts <- encounter %>% group_by(ID) %>% summarise(encounter_count = n())
+print(encounter_counts)
+```
+
+#5.	Suppose a physician requests an analysis to compare systolic blood pressure in adult patients (18 years and older) prescribed Ketamine versus those prescribed Etomidate from January 1, 2018 to December 31, 2019 at the hospital. She hypothesizes those prescribed Ketamine will have lower systolic blood pressure compared to Etomidate. 
+#Note that systolic blood pressure is known to range from 70 to 180 mmHg in this population. Use the Ketamine_SBP_2018_2019 and the Ketamine_Covariate data to answer the following questions. Both datasets correspond to the same patient cohort.
+#a.	Write the PICO/ PECO (T) for this research project (as best you can with the information provided)
+#b.	Using the data provided and the inclusion/exclusion criteria specified above, compute an unadjusted effect estimate to address the physician’s request. Please include all pre-processing steps (assumptions, missing data, etc). (Note: you could use a regression model to find an unadjusted estimate or other methods)
+
+
+#Load the datasets
+
+```{r}
+ketaminesbp <- read.csv("Ketamine_SBP_2018_2019.csv")
+ketaminecovariate <- read.csv("Ketamine_Covariate.csv")
+```
+
+#merge datasets
+```{r}
+ket_data <- merge(ketaminesbp, ketaminecovariate, by = "ID")
+```
+
+#Summary statistics
+```{r}
+summary(ket_data)
+```
+
+#Missing Values
+```{r}
+#Total MV
+sum(is.na(ket_data))
+
+#Columns missing values
+colSums(is.na(ket_data))
+
+# complete case data
+naniar::pct_complete_case(ket_data)
+```
+98% of data is compelete and hence missingness is not a problem.
+
+#Removing missing cases
+```{r}
+ket_complete <- ket_data %>% drop_na()
+
+#recheck missingness 
+sum(is.na(ket_complete))
+dim(ket_complete)
+```
+
+#Factoring Variables
+```{r}
+ket_complete$MEDICATION <- as.factor(ket_complete$MEDICATION)
+ket_complete$COMORB_A <- ifelse(grepl("N", ket_complete$COMORB_A),"No","Yes")
+ket_complete$COMORB_A <- as.factor(ket_complete$COMORB_A)
+
+ket_complete$COMORB_B <- as.factor(ket_complete$COMORB_B)
+ket_complete$COMORB_C <- as.factor(ket_complete$COMORB_C)
+
+ket_complete$HYPOTENSION <- ifelse(ket_complete$HYPOTENSION=="0", "No", "Yes")
+ket_complete$HYPOTENSION <- as.factor(ket_complete$HYPOTENSION)
+
+ket_complete$PAYER <- as.factor(ket_complete$PAYER)
+ket_complete$SEX <- as.factor(ket_complete$SEX)
+ket_complete$RACE_ETH <- as.factor(ket_complete$RACE_ETH)
+summary(ket_complete)
+```
+
+#Removing Outliers in SBP and Age
+In Minimum is -3.37 and maximum is 999. So as in Age, minimum is 17, this dataset is for adults 18 years and older.
+```{r SBP outliers & Age}
+#Under 70 mmHg
+under70 <- ket_complete %>% filter(SBP <70) %>% (n=nrow)
+under70
+
+#Over 180 mmHg
+over180 <- ket_complete %>% filter(SBP >180) %>% (n=nrow)
+over180
+
+#Filtering those with < 70 and > 180
+ket_complete <- ket_complete %>% filter(SBP >= 70 & SBP <= 180 )
+dim (ket_complete)
+
+#Under 18
+under18 <- ket_complete %>% filter (AGE < 18) %>% (n=nrow)
+under18
+
+#Filtering only 18 and above
+ket_complete <- ket_complete %>% filter(AGE >= 18)
+dim(ket_complete)
+```
+
+#Assessing normality with Histogram
+```{r histogram sbp}
+#Histogram of SBP
+sbp_his <- ggplot(ket_complete, aes(x = SBP)) +
+  geom_histogram(binwidth =2.5, color = "black", fill = "white")+
+  geom_vline(aes(xintercept = mean(SBP)), color = "red", linewidth = 0.8)+
+  geom_vline(aes(xintercept = median(SBP)), color = "blue", linewidth = 0.8, linetype = "dashed")+
+  xlab("Systolic Blood Pressure of Patients") +
+  ylab("Count") +
+  ggtitle ("Histogram of Systoli Blood Pressure of Patients")
+sbp_his
+```
+
+# normality and variance test
+```{r}
+nortest::ad.test(ket_complete$SBP)
+ggqqplot(ket_complete$SBP, main = "Q-Q Plot of SBP with 95% Confidence Interval")
+car::leveneTest(SBP ~ MEDICATION, data = ket_complete)
+```
+#T-test
+```{r}
+t.test(SBP ~ MEDICATION, data = ket_complete)
+```
+
+#c.	Patients’ sex is thought to confound the relation between Ketamine and systolic blood pressure. Repeat the analysis while accounting for sex as a confounding variable. 
+
+#Fitting regression models
+```{r unadjusted model}
+m0 <- lm(SBP ~ MEDICATION, data = ket_complete)
+summary(m0)
+```
+
+#Sex adjusted model
+```{r}
+m1 <- lm(SBP ~ MEDICATION + SEX ,data = ket_complete)
+summary(m1)
+autoplot(m1)
+anova(m0, m1)
+```
+

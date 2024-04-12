@@ -1,0 +1,101 @@
+ID,BIRTH_DATE,RACE,ETHNICITY,ENC_DATE,COMORBID
+PAT 1,5/8/1968,White,Hispanic,4/10/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,4/14/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,4/26/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,5/6/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,5/13/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,10/31/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,11/3/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,12/20/2018,"HTN, depression"
+PAT 1,5/8/1968,White,Hispanic,1/15/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,1/27/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,2/10/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,2/17/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,4/14/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,6/30/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,7/20/2019,"HTN, Depression, T2DM"
+PAT 1,5/8/1968,White,Hispanic,10/10/2019,"HTN, Depression, T2DM"
+PAT 2,10/28/1976,White,Non-Hispanic,2/2/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,2/15/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,4/11/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,6/11/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,8/20/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,10/27/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,11/27/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,11/28/2018,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,2/19/2019,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,2/28/2019,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,4/24/2019,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,6/21/2019,Cirrhosis
+PAT 2,10/28/1976,White,Non-Hispanic,6/26/2019,Cirrhosis
+PAT 3,11/8/1961,Black,Hispanic,1/23/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,3/16/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,5/19/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,7/24/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,11/21/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,12/27/2018,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,2/27/2019,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,5/1/2019,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,5/17/2019,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,6/12/2019,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,9/15/2019,HTN Psoriasis
+PAT 3,11/8/1961,Black,Hispanic,10/30/2019,HTN Psoriasis
+PAT 4,10/11/1961,Black,Non-Hispanic,2/23/2018,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,3/17/2018,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,6/14/2018,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,6/18/2018,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,8/10/2018,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,2/2/2019,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,4/1/2019,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,4/9/2019,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,4/23/2019,"Depression, Cirrhosis"
+PAT 4,10/11/1961,Black,Non-Hispanic,11/26/2019,"Depression, Cirrhosis"
+PAT 5,12/3/1974,Other,Non-Hispanic,1/14/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,5/13/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,5/22/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,5/27/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,6/11/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,7/4/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,7/8/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,7/30/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,12/8/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,12/13/2018,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,5/19/2019,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,5/21/2019,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,7/7/2019,Asthma
+PAT 5,12/3/1974,Other,Non-Hispanic,8/15/2019,"Asthma, Depression"
+PAT 5,12/3/1974,Other,Non-Hispanic,11/14/2019,"Asthma, Depression"
+PAT 6,2/13/1988,White,Non-Hispanic,1/15/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,1/22/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,1/29/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,2/1/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,3/18/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,6/8/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,8/28/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,9/11/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,9/28/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,10/11/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,10/28/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,11/27/2018,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,2/1/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,3/3/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,4/6/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,5/13/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,5/23/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,6/11/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,8/25/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,10/10/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,10/28/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 6,2/13/1988,White,Non-Hispanic,11/9/2019,"T2DM, HTN, Cirrhosis (EV)"
+PAT 7,9/4/1980,Black,Non-Hispanic,2/14/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,2/15/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,3/9/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,4/28/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,5/3/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,11/23/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,12/21/2018,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,7/23/2019,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,8/8/2019,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,8/10/2019,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,8/30/2019,"Bipolar, HTN, Asthma"
+PAT 7,9/4/1980,Black,Non-Hispanic,9/24/2019,"Bipolar, HTN, Asthma"

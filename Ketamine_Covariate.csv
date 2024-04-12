@@ -1,0 +1,574 @@
+ID,PAYER,SEX,RACE_ETH,AGE
+P1001,Self-pay,Female,Hispanic,28
+P1002,Self-pay,Female,NH White,20
+P1003,Commercial,Female,NH Black,81
+P1004,Self-pay,Male,Hispanic,43
+P1005,Commercial,Female,NH Black,23
+P1006,Self-pay,Female,NH White,41
+P1007,Government,Male,NH Black,58
+P1008,Commercial,Female,NH Black,81
+P1009,Government,Male,NH Black,33
+P1010,Commercial,Female,NH Black,82
+P1011,NA,Female,NH White,60
+P1012,Commercial,Male,NH Other,45
+P1013,Self-pay,Male,NH Black,79
+P1014,Commercial,Male,NH Black,46
+P1016,Commercial,Female,NH Black,27
+P1017,Government,Male,NH White,72
+P1018,Government,Female,NH Other,68
+P1019,Commercial,Male,NH Other,67
+P1020,Commercial,Male,NH White,51
+P1021,Commercial,Female,NH Other,23
+P1022,Government,Female,NH White,42
+P1023,Government,Male,Hispanic,88
+P1024,Self-pay,Male,NH Black,70
+P1025,Self-pay,Female,NH White,21
+P1026,Self-pay,Female,NH White,72
+P1027,Self-pay,Female,NH Black,54
+P1028,Commercial,Female,NH White,70
+P1029,Self-pay,Male,NH Black,80
+P1030,Commercial,Female,NH Black,28
+P1031,Self-pay,Male,NH White,53
+P1032,Government,Female,NH Other,81
+P1033,Government,Female,NH Black,73
+P1034,Self-pay,Female,NH Black,36
+P1036,Commercial,Male,NH Black,30
+P1037,Commercial,Male,NH Black,72
+P1038,Commercial,Male,NH White,89
+P1039,Government,Female,NH White,71
+P1040,Government,Male,NH White,83
+P1041,Self-pay,Male,NH White,37
+P1042,Self-pay,Male,NH Other,82
+P1043,Self-pay,Male,NH White,82
+P1044,Government,Female,NH White,72
+P1045,Government,Female,NH Black,84
+P1046,Government,Male,NH White,68
+P1047,Self-pay,Female,NH Other,34
+P1048,Government,Female,Hispanic,78
+P1049,Government,Female,NH Black,80
+P1050,Commercial,Male,NH Black,43
+P1051,Self-pay,Male,NH White,60
+P1052,Government,Female,NH White,41
+P1054,Government,Female,Hispanic,76
+P1055,Government,Female,NH Black,40
+P1056,Self-pay,Male,Hispanic,34
+P1057,Government,Female,NH White,70
+P1058,Government,Male,NH Black,68
+P1059,Commercial,Female,NH Black,84
+P1060,Government,Female,NH Other,67
+P1061,Government,Male,NH White,44
+P1062,Government,Male,NH Other,71
+P1063,Government,Male,Hispanic,31
+P1064,Commercial,Female,NH White,41
+P1065,Government,Male,NH White,28
+P1066,Self-pay,Male,NH White,65
+P1067,Commercial,Female,Hispanic,37
+P1068,Commercial,Female,Hispanic,83
+P1069,Government,Male,NH White,59
+P1070,Commercial,Male,Hispanic,26
+P1071,Government,Female,Hispanic,48
+P1072,Self-pay,Female,Hispanic,18
+P1073,Commercial,Female,NH Black,66
+P1074,Government,Female,Hispanic,43
+P1075,Self-pay,Male,NH Black,24
+P1076,Government,Male,NH White,27
+P1077,Self-pay,Male,NH White,35
+P1078,Commercial,Male,NH White,42
+P1079,Self-pay,Male,Hispanic,48
+P1080,Government,Male,NH Other,21
+P1081,Self-pay,Male,Hispanic,24
+P1082,Self-pay,Female,NH Black,19
+P1083,Commercial,Female,NH Black,18
+P1085,Commercial,Male,NH Black,79
+P1086,Commercial,Female,Hispanic,89
+P1087,Commercial,Male,Hispanic,89
+P1088,Government,Male,NH Black,82
+P1089,Commercial,Male,NH White,88
+P1090,Self-pay,Female,NH Other,35
+P1091,Commercial,Male,NH Black,68
+P1092,Commercial,Female,NH Other,50
+P1093,Government,Male,Hispanic,60
+P1094,Commercial,Female,NH White,45
+P1095,Government,Male,NH White,68
+P1096,Government,Male,NH White,89
+P1097,Government,Female,NH White,66
+P1098,Commercial,Male,NH White,61
+P1099,Self-pay,Female,NH White,75
+P1100,Self-pay,Female,NH Other,74
+P1102,Self-pay,Female,NH White,65
+P1103,Self-pay,Male,NH White,25
+P1104,Commercial,Female,Hispanic,68
+P1105,Commercial,Female,Hispanic,81
+P1106,Commercial,Male,NH Black,56
+P1107,Government,Female,Hispanic,78
+P1109,Commercial,Male,NH White,85
+P1110,Commercial,Male,NH White,31
+P1111,Self-pay,Male,NH Black,58
+P1112,Commercial,Male,NH White,56
+P1113,Self-pay,Male,Hispanic,74
+P1114,Commercial,Male,NH White,27
+P1115,Commercial,Female,NH Black,49
+P1116,Commercial,Male,NH Black,28
+P1117,Commercial,Female,NH Black,42
+P1118,Self-pay,Female,NH White,52
+P1119,Self-pay,Male,NH Black,55
+P1120,Self-pay,Female,NH Other,23
+P1121,Self-pay,Male,Hispanic,23
+P1122,Self-pay,Female,NH Black,67
+P1123,Commercial,Female,NH White,24
+P1124,Government,Female,NH White,28
+P1125,Commercial,Male,NH Other,81
+P1126,Self-pay,Female,NH Black,36
+P1127,Self-pay,Female,NH Black,21
+P1128,Self-pay,Female,NH Other,45
+P1129,Commercial,Female,NH White,73
+P1130,Commercial,Female,NH Other,72
+P1131,Government,Female,Hispanic,50
+P1132,Government,Male,NH Black,47
+P1133,Self-pay,Male,NH Black,39
+P1134,Self-pay,Male,NH White,67
+P1135,Commercial,Female,NH White,69
+P1136,Commercial,Male,NH Other,59
+P1137,Commercial,Female,NH White,31
+P1138,Commercial,Female,NH Black,26
+P1139,Commercial,Male,NH Black,61
+P1140,Self-pay,Male,NH Other,63
+P1141,Commercial,Male,NH Black,64
+P1142,Government,Male,NH Black,90
+P1143,Government,Male,NH White,72
+P1144,Self-pay,Female,NH Black,31
+P1145,Government,Female,Hispanic,62
+P1146,Government,Female,Hispanic,59
+P1147,Government,Male,NH White,44
+P1149,Self-pay,Male,NH Black,40
+P1151,Commercial,Male,NH Other,19
+P1152,Government,Female,NH White,66
+P1153,Commercial,Female,NH Other,49
+P1154,Commercial,Male,NH Black,87
+P1156,Government,Female,NH Black,24
+P1157,Self-pay,Male,NH White,82
+P1158,Self-pay,Female,NH Other,60
+P1159,Government,Female,NH Black,47
+P1160,Government,Male,NH Black,66
+P1161,Commercial,Male,NH Black,48
+P1162,Government,Male,NH Other,72
+P1163,Commercial,Female,NH Black,70
+P1164,Self-pay,Male,NH White,79
+P1165,Commercial,Female,NH Black,75
+P1166,Commercial,Male,NH White,32
+P1167,Self-pay,Male,NH White,46
+P1168,Self-pay,Male,NH Other,35
+P1169,Commercial,Male,NH Black,43
+P1170,Commercial,Female,NH Black,74
+P1171,Commercial,Male,Hispanic,72
+P1172,Commercial,Male,NH White,35
+P1174,Government,Male,NH Black,30
+P1175,Self-pay,Female,NH White,84
+P1176,Self-pay,Female,Hispanic,41
+P1177,Government,Female,NH Other,83
+P1178,Government,Female,Hispanic,24
+P1179,Self-pay,Male,NH Other,64
+P1180,Self-pay,Male,NH Black,77
+P1181,Commercial,Male,Hispanic,81
+P1182,Self-pay,Male,NH Black,20
+P1183,Commercial,Male,NH White,31
+P1184,Self-pay,Female,NH White,60
+P1185,Self-pay,Male,NH White,47
+P1186,Self-pay,Male,NH Black,62
+P1187,Commercial,Male,NH Black,31
+P1188,Commercial,Female,NH White,44
+P1189,Government,Female,Hispanic,28
+P1190,Government,Male,NH White,18
+P1191,Government,Female,NH Other,37
+P1192,Commercial,Female,NH White,65
+P1193,Self-pay,Female,NH Black,85
+P1194,Commercial,Male,NH Black,77
+P1196,Commercial,Male,NH Black,84
+P1197,Commercial,Female,NH Black,72
+P1198,Commercial,Male,Hispanic,56
+P1199,Self-pay,Male,NH White,47
+P1200,Government,Male,Hispanic,81
+P1201,Commercial,Female,NH White,38
+P1202,Self-pay,Male,NH White,70
+P1203,Self-pay,Male,NH White,75
+P1204,Commercial,Female,NH White,82
+P1205,Government,Female,NH Other,69
+P1206,Self-pay,Male,Hispanic,44
+P1207,Commercial,Male,NH White,85
+P1208,Government,Male,NH White,63
+P1209,Commercial,Male,Hispanic,76
+P1210,Government,Female,NH Black,53
+P1211,Self-pay,Male,NH White,28
+P1212,Self-pay,Male,NH Black,78
+P1213,Self-pay,Female,NH White,43
+P1214,Self-pay,Female,NH White,61
+P1215,Self-pay,Female,NH White,42
+P1216,Commercial,Male,NH Black,68
+P1217,Self-pay,Male,NH White,77
+P1218,Self-pay,Male,NH Other,43
+P1219,Government,Female,NH Black,26
+P1220,Self-pay,Female,NH Black,88
+P1221,Government,Female,NH Other,27
+P1222,Commercial,Male,NH Black,73
+P1223,Government,Male,Hispanic,36
+P1224,Commercial,Female,NH Other,85
+P1225,Self-pay,Male,NH White,69
+P1226,Commercial,Male,Hispanic,31
+P1228,Government,Male,NH White,50
+P1229,Commercial,Female,NH Black,32
+P1230,Government,Female,NH Black,69
+P1231,Commercial,Male,NH Other,36
+P1232,Commercial,Male,Hispanic,73
+P1233,Commercial,Male,NH Other,44
+P1234,Government,Male,NH Black,37
+P1235,Government,Male,NH Black,89
+P1236,Government,Female,NH White,67
+P1237,Self-pay,Male,NH White,54
+P1238,Commercial,Male,NH White,21
+P1239,Commercial,Male,NH Black,72
+P1240,Government,Female,NH Other,54
+P1241,Commercial,Female,NH Black,70
+P1242,Self-pay,Male,Hispanic,80
+P1243,Government,Female,NH White,28
+P1244,Government,Male,NH White,53
+P1245,Commercial,Female,NH White,81
+P1246,Self-pay,Male,NH Black,73
+P1247,Commercial,Male,NH Black,36
+P1248,Government,Female,NH Black,30
+P1249,Self-pay,Female,Hispanic,72
+P1250,Commercial,Female,NH Black,89
+P1251,Self-pay,Female,NH Other,71
+P1252,NA,Male,NH Other,83
+P1253,Government,Female,NH Black,37
+P1255,Government,Male,NH Black,82
+P1256,Commercial,Male,NH Black,82
+P1257,Self-pay,Male,NH Black,72
+P1258,Government,Female,NH White,84
+P1259,Government,Female,Hispanic,68
+P1260,Commercial,Male,Hispanic,34
+P1261,Commercial,Female,NH Other,78
+P1262,Commercial,Male,NH White,80
+P1264,Government,Female,NH White,43
+P1265,Self-pay,Male,Hispanic,60
+P1266,Commercial,Male,NH Other,41
+P1267,Self-pay,Male,NH Black,76
+P1268,Government,Male,Hispanic,40
+P1269,Commercial,Female,NH Other,34
+P1270,Self-pay,Male,NH Black,70
+P1271,Government,Female,NH White,68
+P1273,Self-pay,Male,NH Black,84
+P1274,Self-pay,Male,NH Black,67
+P1275,Government,Female,NH Other,44
+P1276,Government,Female,NH Black,71
+P1277,Commercial,Female,NH Black,31
+P1278,Self-pay,Male,Hispanic,41
+P1279,Government,Male,NH Black,28
+P1280,Government,Male,NH Other,65
+P1281,Commercial,Male,Hispanic,37
+P1282,Self-pay,Female,NH White,83
+P1283,Government,Male,NH Black,59
+P1284,Commercial,Female,NH Black,26
+P1285,Government,Male,NH White,48
+P1286,Commercial,Female,NH Other,18
+P1287,Government,Female,NH Black,66
+P1288,Commercial,Female,Hispanic,43
+P1289,Self-pay,Female,Hispanic,24
+P1290,Government,Male,NH White,27
+P1291,Self-pay,Male,NH White,35
+P1293,Government,Male,NH Black,42
+P1294,Government,Male,NH Black,48
+P1295,Self-pay,Male,NH Black,21
+P1296,Commercial,Female,NH Black,24
+P1297,Commercial,Male,NH White,19
+P1298,Commercial,Female,NH White,18
+P1299,Self-pay,Female,NH White,79
+P1300,Self-pay,Female,NH Black,89
+P1301,Government,Female,NH White,89
+P1302,Self-pay,Female,NH Black,82
+P1303,Government,Female,NH Other,88
+P1304,Government,Male,Hispanic,35
+P1305,Government,Female,NH White,68
+P1307,Commercial,Male,NH White,50
+P1308,Commercial,Male,NH White,60
+P1309,Commercial,Male,NH Black,45
+P1310,Self-pay,Female,NH White,68
+P1311,Government,Female,NH White,89
+P1312,Government,Female,Hispanic,66
+P1313,Commercial,Male,Hispanic,61
+P1314,Commercial,Male,NH White,75
+P1315,Government,Male,NH White,74
+P1316,Commercial,Female,NH White,65
+P1317,Self-pay,Female,NH Black,25
+P1318,Self-pay,Male,Hispanic,68
+P1319,Government,Male,NH White,81
+P1320,Government,Male,NH White,56
+P1321,Commercial,Male,NH Black,78
+P1322,Self-pay,Female,NH Other,85
+P1323,Self-pay,Male,NH Other,31
+P1324,Self-pay,Female,NH Other,58
+P1325,Commercial,Male,NH White,56
+P1326,Commercial,Female,NH Other,74
+P1327,Commercial,Male,NH White,27
+P1328,Self-pay,Male,NH Black,49
+P1329,Government,Male,NH White,28
+P1330,Self-pay,Male,Hispanic,42
+P1332,Commercial,Female,NH Other,52
+P1333,Self-pay,Male,NH White,55
+P1334,Commercial,Female,NH Other,23
+P1335,Government,Female,Hispanic,23
+P1336,Commercial,Female,Hispanic,67
+P1337,Government,Male,NH White,24
+P1338,Government,Female,Hispanic,28
+P1339,Commercial,Female,NH White,81
+P1340,Commercial,Female,NH Other,36
+P1341,Self-pay,Female,NH Black,21
+P1342,Self-pay,Male,NH White,45
+P1343,Commercial,Male,NH White,73
+P1344,Commercial,Female,Hispanic,72
+P1345,Commercial,Male,NH Black,50
+P1346,Government,Male,NH Black,47
+P1347,Self-pay,Female,NH White,39
+P1348,Self-pay,Male,NH Black,67
+P1349,Government,Male,Hispanic,69
+P1350,Self-pay,Male,NH Black,59
+P1351,Government,Female,NH Black,31
+P1352,Government,Female,NH Other,26
+P1353,Self-pay,Male,NH Black,61
+P1354,Commercial,Female,NH White,63
+P1355,Government,Male,NH White,64
+P1357,Commercial,Male,NH White,90
+P1358,Government,Female,NH Black,72
+P1359,Self-pay,Female,NH Other,31
+P1360,Government,Female,NH Black,62
+P1361,Commercial,Male,Hispanic,59
+P1362,Government,Male,NH Black,44
+P1364,Commercial,Male,NH Other,40
+P1365,Government,Female,NH Black,19
+P1366,Self-pay,Female,NH Black,66
+P1367,Commercial,Female,NH White,49
+P1369,Self-pay,Male,NH Other,87
+P1370,Commercial,Male,NH Black,24
+P1371,Commercial,Female,NH White,82
+P1372,Commercial,Male,Hispanic,60
+P1373,Commercial,Female,NH White,47
+P1374,Government,Female,NH White,66
+P1375,Government,Female,NH Other,48
+P1376,Self-pay,Male,Hispanic,72
+P1377,Self-pay,Female,NH Black,70
+P1378,Government,Male,Hispanic,79
+P1379,Government,Male,NH Black,75
+P1380,Commercial,Female,NH Other,32
+P1381,Self-pay,Female,NH White,46
+P1382,Commercial,Female,NH Other,35
+P1383,Government,Male,NH White,43
+P1384,Self-pay,Male,NH White,74
+P1385,Commercial,Male,NH Black,72
+P1386,Self-pay,Male,NH Black,35
+P1387,Commercial,Male,NH Other,30
+P1388,Commercial,Female,NH White,84
+P1389,Government,Male,NH White,41
+P1390,Self-pay,Female,Hispanic,83
+P1391,Government,Female,NH Other,24
+P1392,Commercial,Male,NH Black,64
+P1393,Commercial,Male,NH Black,77
+P1394,Self-pay,Male,Hispanic,81
+P1395,Government,Male,NH Black,20
+P1396,Government,Female,NH Black,31
+P1397,Commercial,Female,NH White,60
+P1398,Commercial,Female,NH Black,47
+P1399,Self-pay,Female,NH Other,62
+P1400,Government,Male,NH White,31
+P1401,Self-pay,Male,NH White,44
+P1403,Commercial,Female,NH White,28
+P1404,Commercial,Male,Hispanic,18
+P1405,Government,Female,Hispanic,37
+P1406,Commercial,Male,NH Other,65
+P1407,Self-pay,Female,NH Black,85
+P1408,Government,Female,NH Black,77
+P1409,Commercial,Male,NH Other,84
+P1410,Commercial,Female,NH Black,72
+P1411,Commercial,Male,NH White,56
+P1412,Government,Male,Hispanic,47
+P1413,Self-pay,Male,NH Black,81
+P1414,Commercial,Female,NH White,38
+P1415,Government,Male,NH Black,70
+P1416,Self-pay,Female,NH Black,75
+P1417,Self-pay,Male,NH Black,82
+P1418,Self-pay,Female,NH White,69
+P1419,Self-pay,Male,NH White,44
+P1420,Self-pay,Male,NH Black,85
+P1601,Government,Male,NH Black,17
+P1602,Government,Male,NH White,17
+P1603,Government,Male,Hispanic,17
+P1421,Government,Male,NH White,63
+P1422,Government,Female,NH White,76
+P1423,Commercial,Male,NH White,53
+P1424,Government,Female,NH White,28
+P1425,Government,Male,NH White,78
+P1426,Government,Female,NH White,43
+P1427,Commercial,Female,NH White,61
+P1428,Commercial,Male,NH White,42
+P1429,Commercial,Female,NH White,68
+P1430,Self-pay,Male,NH White,77
+P1431,Self-pay,Female,NH White,43
+P1432,Government,Male,NH Other,26
+P1433,Self-pay,Male,NH White,88
+P1434,Commercial,Male,NH Other,27
+P1435,Self-pay,Female,NH White,73
+P1436,Self-pay,Male,NH Black,36
+P1438,Self-pay,Male,NH Black,85
+P1441,Commercial,Male,NH White,69
+P1442,Commercial,Female,Hispanic,31
+P1443,Commercial,Female,NH Black,50
+P1445,Government,Male,NH White,32
+P1446,Commercial,Male,NH Black,69
+P1447,Government,Female,Hispanic,36
+P1448,Government,Female,NH Other,83
+P1449,Government,Male,NH White,59
+P1450,Self-pay,Male,NH Black,26
+P1451,Government,Female,NH Other,48
+P1452,Government,Female,NH White,18
+P1453,Government,Female,NH Black,66
+P1454,Self-pay,Male,NH Other,43
+P1455,Self-pay,Female,NH White,24
+P1456,Self-pay,Female,NH Black,27
+P1457,Government,Female,NH Black,35
+P1458,Government,Female,Hispanic,42
+P1459,Self-pay,Female,NH Black,48
+P1460,Commercial,Female,NH Other,21
+P1461,Commercial,Male,Hispanic,24
+P1463,Government,Female,NH White,19
+P1464,Self-pay,Female,NH White,68
+P1465,Commercial,Female,Hispanic,77
+P1466,Self-pay,Female,NH Black,43
+P1467,Self-pay,Female,Hispanic,26
+P1468,Self-pay,Male,Hispanic,88
+P1469,Self-pay,Female,NH White,27
+P1470,Government,Female,NH Black,73
+P1471,Government,Male,NH White,36
+P1472,Government,Female,Hispanic,85
+P1473,Government,Male,NH White,69
+P1474,Commercial,Male,NH Black,31
+P1475,Commercial,Female,NH Black,50
+P1476,Government,Male,NH Other,32
+P1477,Commercial,Female,NH White,69
+P1478,Government,Male,NH White,36
+P1479,Self-pay,Male,NH White,83
+P1480,Government,Female,NH Black,59
+P1481,Self-pay,Male,Hispanic,26
+P1482,Self-pay,Male,NH White,46
+P1483,Government,Male,NH White,27
+P1484,Government,Male,NH Other,72
+P1485,Government,Male,Hispanic,68
+P1486,Government,Male,NH White,67
+P1487,Self-pay,Male,Hispanic,51
+P1488,Commercial,Female,Hispanic,23
+P1489,Commercial,Male,NH White,42
+P1490,Government,Male,NH Black,88
+P1491,Government,Male,NH Other,70
+P1492,Self-pay,Female,NH White,21
+P1493,Self-pay,Male,NH Other,72
+P1494,Commercial,Male,NH Black,54
+P1496,Self-pay,Male,Hispanic,70
+P1497,Self-pay,Male,NH Black,80
+P1498,Government,Female,Hispanic,28
+P1499,Self-pay,Male,NH White,53
+P1500,Commercial,Female,NH White,81
+P1501,Government,Male,NH Other,73
+P1502,Self-pay,Male,NH Black,36
+P1503,Government,Female,NH White,30
+P1504,Self-pay,Male,NH Black,72
+P1505,Commercial,Male,NH Other,89
+P1506,Government,Female,NH White,71
+P1507,Commercial,Female,NH White,83
+P1508,Commercial,Male,NH White,37
+P1509,Commercial,Male,NH Black,82
+P1510,Government,Male,NH Black,82
+P1511,Government,Male,NH Other,72
+P1512,Government,Female,NH Other,84
+P1513,Government,Female,Hispanic,68
+P1514,Self-pay,Male,NH Black,34
+P1515,Commercial,Female,NH White,78
+P1516,Government,Female,Hispanic,80
+P1517,Self-pay,Female,NH Other,43
+P1518,Government,Female,Hispanic,60
+P1519,Government,Male,NH White,41
+P1520,Self-pay,Male,Hispanic,76
+P1521,Government,Female,NH White,40
+P1522,Self-pay,Male,NH Other,34
+P1523,Commercial,Male,NH Black,70
+P1524,Self-pay,Female,NH White,68
+P1525,Commercial,Female,NH White,84
+P1526,Government,Female,NH White,67
+P1527,Commercial,Male,NH White,44
+P1528,Commercial,Male,NH Other,71
+P1529,Self-pay,Female,NH Other,31
+P1530,Government,Male,NH White,41
+P1531,Commercial,Female,Hispanic,28
+P1532,Government,Female,NH White,65
+P1533,Commercial,Male,NH Black,37
+P1534,Self-pay,Female,NH Black,83
+P1535,Self-pay,Female,Hispanic,59
+P1536,Government,Female,NH Black,26
+P1537,Self-pay,Female,Hispanic,48
+P1538,Commercial,Female,NH Black,18
+P1539,Commercial,Male,NH White,66
+P1540,Government,Female,NH Black,43
+P1541,Self-pay,Male,NH White,24
+P1542,Self-pay,Female,NH Black,27
+P1543,Self-pay,Female,Hispanic,35
+P1544,Government,Female,NH White,42
+P1545,Self-pay,Male,NH Black,48
+P1546,Self-pay,Female,NH White,21
+P1547,Commercial,Female,NH White,24
+P1548,Government,Female,NH White,19
+P1549,Government,Female,NH White,18
+P1550,Self-pay,Male,NH White,79
+P1551,Commercial,Female,NH White,89
+P1552,Government,Female,NH Black,89
+P1553,Self-pay,Male,NH White,82
+P1554,Self-pay,Female,NH White,88
+P1555,Commercial,Female,Hispanic,35
+P1556,Commercial,Male,NH White,68
+P1557,Self-pay,Male,NH White,50
+P1558,Self-pay,Female,NH Black,60
+P1559,Self-pay,Male,NH Black,45
+P1560,Government,Female,NH White,68
+P1561,Commercial,Female,NH White,89
+P1562,Commercial,Female,NH Other,66
+P1563,Self-pay,Male,NH Black,61
+P1564,Government,Female,NH White,75
+P1566,Commercial,Female,NH Black,74
+P1567,Government,Male,NH White,65
+P1568,Government,Female,NH White,25
+P1569,Government,Male,Hispanic,68
+P1570,Government,Male,NH Black,81
+P1571,Self-pay,Female,Hispanic,56
+P1572,Commercial,Female,NH Other,78
+P1573,Government,Male,NH Other,85
+P1575,Government,Male,NH White,31
+P1576,Self-pay,Female,NH Black,58
+P1577,Government,Female,NH Black,56
+P1578,Commercial,Female,NH White,74
+P1579,Self-pay,Female,NH Black,27
+P1580,Self-pay,Female,NH White,49
+P1581,Commercial,Female,NH White,28
+P1582,Commercial,Male,NH Black,42
+P1583,Government,Male,NH White,52
+P1584,Commercial,Female,NH Black,55
+P1585,Commercial,Male,Hispanic,23
+P1586,Self-pay,Male,NH White,23
+P1587,Self-pay,Female,NH White,67
+P1588,Self-pay,Male,Hispanic,24
+P1589,Government,Male,Hispanic,28
+P1590,Self-pay,Female,Hispanic,81
+P1591,Self-pay,Female,Hispanic,36
+P1592,Government,Male,NH Black,21
+P1593,Government,Female,NH White,45
+P1594,Government,Male,NH White,73
+P1595,Self-pay,Male,NH White,72
+P1596,Self-pay,Female,NH Black,50
+P1597,Self-pay,Male,NH White,47
+P1598,Self-pay,Male,NH Black,39
+P1599,Commercial,Male,NH White,67
+P1600,Government,Male,NH White,69
